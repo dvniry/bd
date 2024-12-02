@@ -1,4 +1,3 @@
-
 SELECT 
     E.FullName AS EmployeeFullNames,
     ROUND(SUM(P.Salary * S.SalaryPercentage)) AS SumSalary
